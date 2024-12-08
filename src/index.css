@@ -151,7 +151,8 @@ hr.RampBreak--l {
 
 .RampInputCheckbox--input {
   opacity: 0;
-  transform: translate(-20px);
+  position: relative;
+  left: -16px;
 }
 
 .RampButton {
