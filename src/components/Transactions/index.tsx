@@ -14,11 +14,6 @@ export const Transactions: TransactionsComponent = ({ transactions }) => {
         value: newValue,
       })
       await clearCache()
-      // await clearCacheByEndpoint([
-      //   "setTransactionApproval",
-      //   "transactionsByEmployee",
-      //   "paginatedTransactions",
-      // ])
     },
     [fetchWithoutCache, clearCache]
   )
